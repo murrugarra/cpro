@@ -1,0 +1,54 @@
+# Ignore Maven/Gradle build directories
+/target/
+/build/
+
+# Ignore class files
+*.class
+
+# Ignore JAR files
+*.jar
+
+# Ignore logs
+*.log
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans files
+nbproject/
+
+# Ignore Tomcat files
+*/logs/*
+*/work/*
+*/temp/*
+
+# Ignore application properties or sensitive configuration files
+*.properties
+*.yml
+*.yaml
+
+# Ignore the compiled classes and temporary files
+*.war
+*.ear
+*.tmp
+
+# Ignore IDE-specific files for common IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+# Eclipse
+*.classpath
+*.project
+.settings/
+# NetBeans
+nbproject/
+
+# Operating system files
+.DS_Store
+Thumbs.db
